@@ -2,7 +2,7 @@
 
 PersonalDB* signUp(PersonalDB* head,PersonalDB* NN)
 {
-    PersonalDB *tmpNode = NULL;
+    PersonalDB *tmpNode = head;
     PersonalDB *newNode = NULL;
     
     tmpNode = head;
